@@ -5,6 +5,29 @@
     xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091724_added_entity_ProductType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091725_added_entity_Product.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091726_added_entity_ProductTypeWallet.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091727_added_entity_Partner.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091728_added_entity_PayPartner.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091729_added_entity_WalletTransactionType.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091730_added_entity_Wallet.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091731_added_entity_WalletRule.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091732_added_entity_WalletRuleRate.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091733_added_entity_WalletTransaction.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091734_added_entity_PartnerTransaction.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091735_added_entity_PayPartnerLog.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091736_added_entity_PartnerLog.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091737_added_entity_Status.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20181104091725_added_entity_constraints_Product.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091726_added_entity_constraints_ProductTypeWallet.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091730_added_entity_constraints_Wallet.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091731_added_entity_constraints_WalletRule.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091732_added_entity_constraints_WalletRuleRate.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091733_added_entity_constraints_WalletTransaction.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091734_added_entity_constraints_PartnerTransaction.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091735_added_entity_constraints_PayPartnerLog.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20181104091736_added_entity_constraints_PartnerLog.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
 </databaseChangeLog>
